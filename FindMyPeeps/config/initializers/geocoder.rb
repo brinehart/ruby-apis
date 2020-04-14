@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Geocoder.configure(
   # Geocoding options
   # timeout: 3,                 # geocoding service timeout (secs)
@@ -17,6 +18,6 @@ Geocoder.configure(
   # always_raise: [],
 
   # Calculation options
-  units: :mi
+  units: :mi,
   distances: :linear          # :spherical or :linear
 )
